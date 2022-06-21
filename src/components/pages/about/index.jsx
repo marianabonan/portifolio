@@ -1,3 +1,5 @@
+import { CircularProgress, CircularProgressLabel } from "@chakra-ui/react";
+
 export function About() {
   return (
     <div>
@@ -18,7 +20,11 @@ export function About() {
           text text text text text text text text{" "}
         </span>
       </div>
-      <div></div>
+      <div>
+        <CircularProgress value={85} color="#4A00E0" size="85">
+          <CircularProgressLabel>Front-end</CircularProgressLabel>
+        </CircularProgress>
+      </div>
     </div>
   );
 }
