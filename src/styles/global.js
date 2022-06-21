@@ -24,13 +24,8 @@ export default createGlobalStyle`
 }
 
 p{
-    font-size: 24px;
+    font-size: 25px;
     color: var(--grey-1);
-}
-
-h1{
-    font-size: 90px;
-    color: var(--purple-1);
 }
 
 h2{

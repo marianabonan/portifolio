@@ -1,20 +1,15 @@
+import { Header } from "./components/header";
 import GlobalStyled from "./styles/global";
-
+import { ChakraProvider } from "@chakra-ui/react";
+import { Home } from "./components/pages/home";
 function App() {
   return (
     <div>
+      <ChakraProvider resetCSS={false}>
+        <Header />
+      </ChakraProvider>
       <GlobalStyled />
-      <h1>ooi</h1>
-      <p>
-        {" "}
-        oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi,
-        oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi,
-        oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi,
-        oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi,
-        oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi,
-        oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi, oi,
-        oi{" "}
-      </p>
+      <Home />
     </div>
   );
 }
