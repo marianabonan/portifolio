@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: #fafafa;
+  @media (max-width: 750px) {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2%;
+  }
 `;
 
 export const BoxDescription = styled.div`
@@ -26,7 +32,8 @@ export const BoxDescription = styled.div`
     }
     h4 {
     }
-    p {
+    span {
+      color: ;
     }
   }
 `;
