@@ -14,7 +14,6 @@ export const BoxContato = styled.div`
   background-color: white;
   display: flex;
   margin: auto;
-  z-index: 1;
   position: relative;
   top: 55px;
 `;

@@ -7,7 +7,6 @@ export function Project() {
       </div>
 
       <div>
-        {/* imagem */}
         <h3> </h3>
       </div>
     </>

@@ -10,13 +10,6 @@ export function Footer() {
       <div
         style={{ position: "relative", height: "240px", marginTop: "200px" }}
       >
-        <BoxContato>
-          <h3>contato</h3>
-          <span>
-            Vamos tralhando juntos? Deixe uma mensagem e vamos conversar!
-          </span>
-          <button>vamos conversar!</button>
-        </BoxContato>
         <WaveContainer level={50}>
           <Wave
             fill="#A97CE5"
@@ -56,6 +49,13 @@ export function Footer() {
             }}
           />
         </WaveContainer>
+        <BoxContato>
+          <h3>contato</h3>
+          <span>
+            Vamos tralhando juntos? Deixe uma mensagem e vamos conversar!
+          </span>
+          <button>vamos conversar!</button>
+        </BoxContato>
       </div>
     </>
   );
