@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
+    "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@testing-library/jest-dom": "^5.14.1",
@@ -16,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
+    "react-wavify": "^1.5.7",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.0"
   },
