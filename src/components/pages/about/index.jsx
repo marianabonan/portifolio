@@ -1,5 +1,18 @@
-import { CircularProgress, CircularProgressLabel } from "@chakra-ui/react";
-import { BoxDescription, Container } from "./styled";
+import {
+  BoxAside,
+  BoxDescription,
+  BoxLinks,
+  BoxSkills,
+  Container,
+} from "./styled";
+import {
+  IoLogoHtml5,
+  IoLogoCss3,
+  IoLogoNodejs,
+  IoLogoJavascript,
+} from "react-icons/io";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { GrReactjs } from "react-icons/gr";
 
 export function About() {
   return (
@@ -17,31 +30,40 @@ export function About() {
         </p>
         <span>
           {" "}
-          text text text text text text text text text text text text text text
-          text text text text text text text text{" "}
+          textbonitinho de alguém legal que não precisa fazer sentido nenhum
+          mais faz{" "}
         </span>
       </BoxDescription>
-      <div>
-        <CircularProgress value={85} color="#4A00E0" size="85">
-          <CircularProgressLabel>Front-end</CircularProgressLabel>
-        </CircularProgress>
-        <div>
-          <p>JavaScript</p>
-          <p>React</p>
-          <p>Html</p>
-          <p>Css</p>
-        </div>
-        <div>
-          <div className="line1">---</div>
-          <div className="line2">---</div>
-          <div className="line3">---</div>
-          <div className="line4">---</div>
-        </div>
-        <div>
-          <img /> <p>github</p>
-          <img /> <p>linkedin</p>
-        </div>
-      </div>
+
+      <BoxAside>
+        <BoxSkills>
+          <IoLogoJavascript className="icons" />
+
+          <GrReactjs className="icons" />
+
+          <IoLogoHtml5 className="icons" />
+
+          <IoLogoCss3 className="icons" />
+
+          <IoLogoNodejs className="icons" />
+        </BoxSkills>
+        <BoxLinks>
+          <div className="boxLink">
+            <button>
+              <BsGithub className="iconLink" />
+            </button>
+
+            <p>github</p>
+          </div>
+          <div className="boxLink">
+            <button>
+              <BsLinkedin className="iconLink" />
+            </button>
+
+            <p>linkedin</p>
+          </div>
+        </BoxLinks>
+      </BoxAside>
     </Container>
   );
 }

@@ -7,6 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
 }
 
 :root {
