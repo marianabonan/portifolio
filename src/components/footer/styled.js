@@ -26,6 +26,7 @@ export const BoxContato = styled.div`
     color: #ffffff;
     font-size: 30px;
     background-color: transparent;
+    font-weight: bold;
   }
 
   span {

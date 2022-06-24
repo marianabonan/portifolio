@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <>
       <div
-        style={{ position: "relative", height: "340px", marginTop: "850px" }}
+        style={{ position: "relative", height: "340px", marginTop: "100px" }}
       >
         <WaveContainer level={50}>
           <Wave
