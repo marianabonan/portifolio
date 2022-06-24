@@ -11,11 +11,11 @@ function App() {
       <GlobalStyled />
       <ChakraProvider resetCSS={true}>
         <Header />
-        <Home />
-        <About />
-        <Project />
-        <Footer />
       </ChakraProvider>
+      <Home />
+      <About />
+      <Project />
+      <Footer />
     </div>
   );
 }
