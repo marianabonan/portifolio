@@ -28,11 +28,6 @@ export function About() {
           text text text text text text text text text text text text text text
           text text text text text text ”
         </p>
-        <span>
-          {" "}
-          textbonitinho de alguém legal que não precisa fazer sentido nenhum
-          mais faz{" "}
-        </span>
       </BoxDescription>
 
       <BoxAside>

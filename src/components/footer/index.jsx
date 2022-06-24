@@ -1,15 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
 import Wave from "react-wavify";
-import styled from "@emotion/styled";
+
 import { BoxContato, WaveContainer } from "./styled";
 
 export function Footer() {
   return (
     <>
-      <div
-        style={{ position: "relative", height: "240px", marginTop: "200px" }}
-      >
+      <div style={{ position: "relative", height: "340px" }}>
         <WaveContainer level={50}>
           <Wave
             fill="#A97CE5"
@@ -50,7 +48,7 @@ export function Footer() {
           />
         </WaveContainer>
         <BoxContato>
-          <h3>contato</h3>
+          <h3> &lt; contato / &gt; </h3>
           <span>
             Vamos tralhando juntos? Deixe uma mensagem e vamos conversar!
           </span>

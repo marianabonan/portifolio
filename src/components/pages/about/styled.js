@@ -25,9 +25,9 @@ export const BoxDescription = styled.div`
   border-radius: 40px;
   opacity: 1;
   background-color: #ffffff;
+
   p {
     text-align: center;
-    background-color: #ffffff;
   }
 
   @media (max-width: 580px) {
@@ -52,25 +52,21 @@ export const BoxDescription = styled.div`
       border-radius: 34px;
     }
     h3 {
+      font-size: 35px;
       color: #4a00e0;
       background-color: #ffffff;
     }
     p {
       margin-bottom: 15px;
       padding: 10px;
-    }
-    span {
-      color: #4a00e0;
-      text-align: center;
       background-color: #ffffff;
-      padding: 10px;
-      border-radius: 40px;
     }
   }
 
   @media (min-width: 580px) {
     max-width: 580px;
     margin-bottom: 25px;
+
     .box-img {
       display: flex;
       flex-direction: row;
@@ -88,18 +84,12 @@ export const BoxDescription = styled.div`
     }
     h3 {
       color: #4a00e0;
-      background-color: #ffffff;
+
       max-width: 300px;
     }
     p {
       margin-bottom: 15px;
       padding: 10px;
-    }
-    span {
-      color: #4a00e0;
-      background-color: #ffffff;
-      padding: 0;
-      border-radius: 40px;
     }
   }
   @media (min-width: 1830px) {
@@ -114,9 +104,6 @@ export const BoxDescription = styled.div`
     p {
       font-size: 35px;
     }
-    span {
-      font-size: 25px;
-    }
   }
 `;
 
@@ -127,8 +114,10 @@ export const BoxAside = styled.div`
   height: 500px;
 
   @media (min-width: 675px) {
+    margin-top: 2%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
   @media (min-width: 970px) {

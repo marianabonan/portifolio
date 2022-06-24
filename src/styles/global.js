@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
     font-family: 'Montserrat', sans-serif;
-    /* background-color: #FAFAFA; */
+    background-color: #FAFAFA;
 }
 
 :root {
@@ -33,7 +33,8 @@ h2{
     font-size: 60px ;
 }
 
-h3{
-    font-size: 40px ;
-}
+
+button:hover{
+      cursor: pointer;
+  }
 `;
