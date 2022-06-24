@@ -25,12 +25,14 @@ export const BoxContato = styled.div`
   h3 {
     color: #ffffff;
     font-size: 30px;
+    background-color: transparent;
   }
 
   span {
     color: #e5d8ff;
     font-size: 15px;
     margin: 5%;
+    background-color: transparent;
   }
   button {
     border: 2px solid #4a00e0;

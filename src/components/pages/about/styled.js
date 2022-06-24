@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #fafafa;
   justify-content: center;
 
   @media (max-width: 970px) {
@@ -24,7 +23,7 @@ export const BoxDescription = styled.div`
   border: 2px solid #fcfcfc;
   border-radius: 40px;
   opacity: 1;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
 
   p {
     text-align: center;
@@ -54,12 +53,10 @@ export const BoxDescription = styled.div`
     h3 {
       font-size: 35px;
       color: #4a00e0;
-      background-color: #ffffff;
     }
     p {
       margin-bottom: 15px;
       padding: 10px;
-      background-color: #ffffff;
     }
   }
 
@@ -73,7 +70,7 @@ export const BoxDescription = styled.div`
       justify-content: space-around;
       text-align: center;
       align-items: center;
-      background-color: #ffffff;
+
       margin-bottom: 15px;
     }
     .image {
@@ -84,7 +81,7 @@ export const BoxDescription = styled.div`
     }
     h3 {
       color: #4a00e0;
-
+      font-size: 30px;
       max-width: 300px;
     }
     p {
@@ -139,7 +136,7 @@ export const BoxSkills = styled.div`
   opacity: 1;
   display: flex;
   justify-content: space-around;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-radius: 40px;
   height: 200px;
   align-items: center;
@@ -150,7 +147,6 @@ export const BoxSkills = styled.div`
     font-size: 65px;
     color: #9974e5;
     margin-left: 10px;
-    background-color: #ffffff;
   }
   @media (min-width: 675px) {
     margin-bottom: 0;
@@ -174,7 +170,7 @@ export const BoxSkills = styled.div`
 export const BoxLinks = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-radius: 40px;
   border: 2px solid #fcfcfc;
   height: 200px;
@@ -182,7 +178,6 @@ export const BoxLinks = styled.div`
   justify-content: space-between;
   button {
     border: none;
-    background-color: #ffffff;
   }
   button :hover {
     cursor: pointer;
@@ -193,15 +188,12 @@ export const BoxLinks = styled.div`
     justify-content: space-around;
     width: 250px;
     align-items: center;
-    background-color: #ffffff;
   }
   .iconLink {
     font-size: 60px;
     color: #4a00e0;
-    background-color: #ffffff;
   }
   p {
-    background-color: #ffffff;
     text-align: center;
   }
   @media (max-width: 855px) {

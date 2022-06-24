@@ -7,7 +7,9 @@ import { BoxContato, WaveContainer } from "./styled";
 export function Footer() {
   return (
     <>
-      <div style={{ position: "relative", height: "340px" }}>
+      <div
+        style={{ position: "relative", height: "340px", marginTop: "850px" }}
+      >
         <WaveContainer level={50}>
           <Wave
             fill="#A97CE5"
@@ -50,7 +52,7 @@ export function Footer() {
         <BoxContato>
           <h3> &lt; contato / &gt; </h3>
           <span>
-            Vamos tralhando juntos? Deixe uma mensagem e vamos conversar!
+            Vamos trabalhar juntos? Deixe uma mensagem e vamos conversar!
           </span>
           <button>vamos conversar!</button>
         </BoxContato>
