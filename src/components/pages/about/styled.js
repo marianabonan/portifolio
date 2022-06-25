@@ -28,6 +28,9 @@ export const BoxDescription = styled.div`
   p {
     text-align: center;
   }
+  h3 {
+    font-weight: bold;
+  }
 
   @media (max-width: 580px) {
     display: flex;
@@ -41,7 +44,6 @@ export const BoxDescription = styled.div`
       flex-direction: column;
       text-align: center;
       align-items: center;
-      background-color: #ffffff;
       margin-bottom: 15px;
     }
     .image {
@@ -57,6 +59,7 @@ export const BoxDescription = styled.div`
     p {
       margin-bottom: 15px;
       padding: 10px;
+      font-size: 22px;
     }
   }
 
@@ -108,13 +111,13 @@ export const BoxAside = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
 
   @media (min-width: 675px) {
     margin-top: 2%;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    height: 400px;
   }
 
   @media (min-width: 970px) {
@@ -123,6 +126,7 @@ export const BoxAside = styled.div`
     align-items: center;
     margin: 2%;
     justify-content: space-around;
+    height: 500px;
   }
   @media (min-width: 1830px) {
     height: 700px;

@@ -2,7 +2,7 @@ import Kenziehub from "../../../assets/image/kenzieHub.jpg";
 import Psique from "../../../assets/image/psique.jpg";
 import KenzieShop from "../../../assets/image/kenzieShop.jpg";
 
-import { BoxProject, CardProject } from "./styled";
+import { BoxDescription, BoxProject, CardProject } from "./styled";
 
 export function Project() {
   const listProject = [
@@ -24,10 +24,10 @@ export function Project() {
   ];
   return (
     <>
-      <div>
+      <BoxDescription>
         <h3> &lt; projetos/ &gt;</h3>
         <p> Alguns dos projetos que participei </p>
-      </div>
+      </BoxDescription>
 
       <BoxProject>
         {listProject.map((project) => (
