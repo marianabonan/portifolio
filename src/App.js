@@ -9,9 +9,7 @@ function App() {
   return (
     <div>
       <GlobalStyled />
-      <ChakraProvider resetCSS={true}>
-        <Header />
-      </ChakraProvider>
+      <ChakraProvider resetCSS={true}></ChakraProvider>
       <Home />
       <About />
       <Project />
