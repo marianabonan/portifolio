@@ -3,11 +3,16 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: flex-end;
-  margin: 5%;
+  padding: 30px;
   height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #ffff;
 
   @media (min-width: 768px) {
-    margin: 3%;
+    padding: 40px;
   }
 `;
 

@@ -48,10 +48,13 @@ export const CardProject = styled.div`
     border-radius: 40px;
     height: 200px;
   }
-
+  div {
+    display: flex;
+  }
   p {
     padding-top: 15px;
     padding-left: 15px;
+    padding-right: 30px;
     color: #4a00e0;
     font-size: 24px;
     font-weight: bold;

@@ -89,7 +89,7 @@ export const BoxDescription = styled.div`
     }
     p {
       margin-bottom: 15px;
-      padding: 10px;
+      padding: 20px;
     }
   }
   @media (min-width: 1830px) {

@@ -6,10 +6,19 @@ import {
   MenuItem,
   IconButton,
 } from "@chakra-ui/react";
-
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 export function Header() {
+  function teste() {
+    const scrollY = window.scrollY;
+    const deviceHeight = window.innerHeight;
+    window.scrollTo({
+      top: scrollY + deviceHeight,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <Container>
       <Menu>
