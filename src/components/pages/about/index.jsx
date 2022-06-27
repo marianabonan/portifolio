@@ -33,8 +33,8 @@ export function About() {
         <p>
           Tenho 25 anos, moro em Curitiba Paraná. Trabalhei muitos anos com
           dança e atendimento ao cliente, mas no ultimo ano cai de paraquedas no
-          mundo da tecnologia e resolvi me expecializar na area. Estudo na
-          escola Kenzie Academi, onde me formei em Front End e agora estudo Back
+          mundo da tecnologia e resolvi me especializar na área. Estudo na
+          escola Kenzie Academy, onde me formei em Front End e agora estudo Back
           End para me tornar Full Stack
         </p>
       </BoxDescription>
