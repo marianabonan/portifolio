@@ -50,7 +50,7 @@ export function Project() {
             <div>
               <p>{project.nome}</p>
               <button onClick={() => openLink(project.linkGit)}>
-                <FiGithub size={3.0} />
+                <FiGithub size={30} />
               </button>
             </div>
 
