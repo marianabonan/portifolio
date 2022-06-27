@@ -5,6 +5,7 @@ export const BoxDescription = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 200px;
   h3 {
     font-size: 40px;
     font-weight: bold;

@@ -15,6 +15,7 @@ export const Container = styled.div`
     align-items: center;
     margin: 2%;
     justify-content: space-around;
+    padding-top: 150px;
   }
 `;
 
@@ -49,7 +50,6 @@ export const BoxDescription = styled.div`
     .image {
       height: 200px;
       width: 200px;
-      background-color: var(--purple-1);
       border-radius: 34px;
     }
     h3 {

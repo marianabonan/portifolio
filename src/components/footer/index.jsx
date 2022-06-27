@@ -5,6 +5,10 @@ import Wave from "react-wavify";
 import { BoxContato, WaveContainer } from "./styled";
 
 export function Footer() {
+  const linkedin = "https://www.linkedin.com/in/mariana-bonan-49b0b5211/";
+  const openLink = (link) => {
+    window.open(link, "_blank");
+  };
   return (
     <>
       <div
@@ -54,7 +58,7 @@ export function Footer() {
           <span>
             Vamos trabalhar juntos? Deixe uma mensagem e vamos conversar!
           </span>
-          <button>vamos conversar!</button>
+          <button onClick={() => openLink(linkedin)}>vamos conversar!</button>
         </BoxContato>
       </div>
     </>
